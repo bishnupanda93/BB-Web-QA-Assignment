@@ -1,0 +1,59 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Employee Journey Login",
+    "line": 2,
+    "id": "employee-journey-login",
+    "tags": [],
+    "uri": "NewTestData.feature",
+    "elements": [
+      {
+        "id": "employee-journey-login;employee-is-able-to-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Employee is able to login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is able to login to the portal",
+            "match": {
+              "location": "NewTestData_Definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User is logged in successfully",
+            "match": {
+              "location": "NewTestData_Definitions.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
